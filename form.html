@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="formnew.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>
+                Prediksi Pengeluaran Bulanan Rumah Tangga 
+            </h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Masukan total pendapatan anda per bulan</label>
+                <input name="gaji" type="number" id="income" placeholder="8375000">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Pengeluaran pergi ke restoran dan hotel per bulan</label>
+                <input name="restodanhotel" type="number" id="hotels" placeholder="515000">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Pengeluaran untuk jasa dan kebutuhan tersier<br>(contoh: art, satpam, perhiasan)</label>
+                <input name="barangdanjasa" type="number" id="services" placeholder="3425000">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Pengeluaran untuk belanja pakaian/fashion per bulan</label>
+                <input name="baju" type="number" id="fashion" placeholder="515000">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Masukan Umur Kepada Keluarga</label>
+                <input name="umur" type="number" id="agehead" placeholder="32">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Masukan luas rumah</label>
+                <input name="luasrumah" type="number" id="luas" placeholder="dalam meter persegi">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Umur Rumah tempat tinggal</label>
+                <input name="umurrumah" type="number" id="houseage" placeholder="10">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Pengeluaran untuk rokok & alkohol per bulan</label>
+                <input name="rokokdanalkohol" type="number" id="cigrates" placeholder="150000">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Jumlah Anggota Keluarga</label>
+                <input name="anggotakeluarga" type="number" id="anggota" placeholder="5">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Total barang elektronik besar (contoh: AC, TV, Kulkas, Mesin cuci, Komputer)</label>
+                <input name="elektronik" type="number" id="elektronik" placeholder="3">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Jumlah smartphone satu keluarga</label>
+                <input name="hp" type="number" id="hp" placeholder="5">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+                <small>Error Message</small>
+            </div>
+
+            <button type="submit">Submit</button>
+            
+            <div id="hasil" class="hasil">
+            </div>
+
+            <div class="saran aman" id="aman">
+            </div>
+
+            <div class="saran waspada" id="waspada">
+            </div>
+
+            <div class="saran bahaya" id="bahaya">
+            </div>
+
+        </form>
+    </div>
+    <script src="formnew.js"></script>
+</body>
+</html>
