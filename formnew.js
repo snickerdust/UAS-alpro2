@@ -39,7 +39,7 @@ function runfetch() {
 		'hp':parseInt(document.getElementById('form').elements[10].value)
 	};
 
-    fetch('http://10:10:10:243:5000/', {
+    fetch('http://10.10.10.243:5000/', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',
